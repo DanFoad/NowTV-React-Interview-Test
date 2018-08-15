@@ -1,0 +1,9 @@
+/**** APP ****/
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}

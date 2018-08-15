@@ -1,0 +1,15 @@
+/**** GENERAL ****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *:before, *:after {
+    box-sizing: inherit;
+  }
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    font-family: "Sky Text";
+    background-color: #FFFFFF;
+  }

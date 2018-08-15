@@ -1,0 +1,101 @@
+exports[`test hides further avatars if > 5 1`] = `
+<div
+  className="messages-header">
+  <div
+    className="messages-header__avatars">
+    <img
+      alt=""
+      className="messages-header__avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+    <img
+      alt=""
+      className="messages-header__avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+    <img
+      alt=""
+      className="messages-header__avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+    <img
+      alt=""
+      className="messages-header__avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+    <img
+      alt=""
+      className="messages-header__avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+    <span
+      className="messages-header__additional">
+      +
+      3
+      ...
+    </span>
+  </div>
+  <h2>
+    Test
+  </h2>
+  <div
+    className="messages-header__settings">
+    <img
+      alt=""
+      src="/settings.png" />
+  </div>
+</div>
+`;
+
+exports[`test renders correctly 1`] = `
+<div
+  className="messages-header">
+  <div
+    className="messages-header__avatars">
+    <img
+      alt=""
+      className="messages-header__avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+    <span />
+  </div>
+  <h2>
+    Test
+  </h2>
+  <div
+    className="messages-header__settings">
+    <img
+      alt=""
+      src="/settings.png" />
+  </div>
+</div>
+`;
+
+exports[`test renders multiple avatars 1`] = `
+<div
+  className="messages-header">
+  <div
+    className="messages-header__avatars">
+    <img
+      alt=""
+      className="messages-header__avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+    <img
+      alt=""
+      className="messages-header__avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+    <img
+      alt=""
+      className="messages-header__avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+    <img
+      alt=""
+      className="messages-header__avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff" />
+    <span />
+  </div>
+  <h2>
+    Test
+  </h2>
+  <div
+    className="messages-header__settings">
+    <img
+      alt=""
+      src="/settings.png" />
+  </div>
+</div>
+`;

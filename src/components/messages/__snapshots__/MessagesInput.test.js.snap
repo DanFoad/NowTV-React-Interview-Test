@@ -1,0 +1,25 @@
+exports[`test renders correctly 1`] = `
+<div
+  className="messages-input">
+  <textarea
+    className="messages-input__textarea"
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    placeholder="Write a reply..."
+    value="" />
+  <div
+    className="messages-input__actions">
+    <img
+      alt=""
+      src="/emoticon.png" />
+    <img
+      alt=""
+      src="/attachment.png" />
+  </div>
+  <button
+    className="messages-input__send"
+    onClick={[Function]}>
+    Send
+  </button>
+</div>
+`;
